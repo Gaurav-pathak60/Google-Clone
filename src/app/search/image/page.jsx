@@ -1,5 +1,5 @@
-import ImageSearchResults from '@/components/ImageSearchResults';
-import Link from 'next/link';
+import {ImageSearchResults} from '@/components/ImageSearchResults';
+import {Link }from 'next/link';
 
 export default async function ImageSearchPage({ searchParams }) {
   const startIndex = searchParams.start || '1';
