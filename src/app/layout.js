@@ -6,7 +6,7 @@ export const metadata = {
   description:
     'An open source Google clone built with Next.js and Tailwind CSS.',
     icons: {
-      icon: '/icon.ico', // /public path
+      icon: '/icon.ico',
     },
 };
 
